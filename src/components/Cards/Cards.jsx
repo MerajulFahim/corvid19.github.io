@@ -19,7 +19,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
           className={cx(styles.Card, styles.infected)}
         >
           <CardContent>
-            <Typography color="textSecondary" gutterBottom>
+            <Typography color="primary" gutterBottom>
               Infected
             </Typography>
             <Typography variant="h5">
@@ -30,7 +30,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
                 separator=" , "
               />
             </Typography>
-            <Typography color="textSecondary">
+            <Typography color="primary">
               {new Date(lastUpdate).toDateString()}
             </Typography>
             <Typography variant="body2">
@@ -46,7 +46,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
           className={cx(styles.Card, styles.recovered)}
         >
           <CardContent>
-            <Typography color="textSecondary" gutterBottom>
+            <Typography color="primary" gutterBottom>
               Recovered
             </Typography>
             <Typography variant="h5">
@@ -57,7 +57,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
                 separator=" , "
               />
             </Typography>
-            <Typography color="textSecondary">
+            <Typography color="primary">
               {new Date(lastUpdate).toDateString()}
             </Typography>
             <Typography variant="body2">
@@ -73,7 +73,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
           className={cx(styles.Card, styles.deaths)}
         >
           <CardContent>
-            <Typography color="textSecondary" gutterBottom>
+            <Typography color="secondary" gutterBottom>
               Deaths
             </Typography>
             <CountUp
@@ -83,7 +83,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
               separator=" , "
             />
             <Typography variant="h5"></Typography>
-            <Typography color="textSecondary">
+            <Typography color="secondary">
               {new Date(lastUpdate).toDateString()}
             </Typography>
             <Typography variant="body2">

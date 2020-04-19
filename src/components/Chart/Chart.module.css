@@ -6,6 +6,8 @@
 
 @media(max-width:770px){
     .container{
-        width: 100%;
+        width: 80% !important;
+        display: flex;
+        justify-content: center;
     }
 }

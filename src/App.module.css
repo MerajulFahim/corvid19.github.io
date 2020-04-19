@@ -1,5 +1,7 @@
 body{
     caret-color: rgb(250,250,250);
+
+    background: linear-gradient(89deg,rgb(245, 241, 245) 0%,rgb(80, 225, 241));
 }
 .container{
     display: flex;
