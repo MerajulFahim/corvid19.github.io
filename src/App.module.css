@@ -9,7 +9,16 @@ body{
     justify-content: center;
     flex-direction: column;
 }
-
+.text{
+    display: flex !important;
+    justify-content: center !important;
+    font-family: "Catamaran", sans-serif !important;
+    line-height: 1.4 !important;
+    font-size: 1.50rem !important;
+    font-weight: 300 !important;
+    letter-spacing:0.1rem !important;
+    color: rgba(25, 10, 235, 0.705);
+}
 .image{
     width: 370px;
     margin:30px ;

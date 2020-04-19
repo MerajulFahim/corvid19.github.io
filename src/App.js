@@ -25,14 +25,15 @@ handleCountryChange =async(country)=>{
     render(){
 
     const{data,country}=this.state;
-        return(
-            <div className={styles.container}>
-            <img className={styles.image} src={images} alt="Covid-19"/>
-                <Cards data={data}/>
-                <CountryPicker handleCountryChange={this.handleCountryChange}/>
-                <Chart data={data} country={country}/>
-            </div>
-        )
+        return (
+          <div className={styles.container}>
+            <img className={styles.image} src={images} alt="Covid-19" />
+            <p className={styles.text}>Keep Your Loved Ones Safe, Stay Home</p>
+            <Cards data={data} />
+            <CountryPicker handleCountryChange={this.handleCountryChange} />
+            <Chart data={data} country={country} />
+          </div>
+        );
     }
 }
 

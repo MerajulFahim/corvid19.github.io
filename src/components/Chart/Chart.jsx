@@ -46,9 +46,9 @@ const barChart=(
         datasets:[{
             label:'people',
             backgroundColor:[
-                'rgba(0,0,255,0.5)',
-                'rgba(0,255,0,0.5)',
-                'rgba(255,0,0,0.5)',
+                'rgba(0,0,255,0.9)',
+                'rgba(0,255,0,0.9)',
+                'rgba(255,0,0,0.9)',
             ],
             data:[confirmed.value,recovered.value,deaths.value]
         }]
